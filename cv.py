@@ -97,12 +97,13 @@ def create_profile_document(data):
 
 
     # Секция "Certifications"
-    doc.add_heading("Certifications", level=1)
-    for cert in data['certifications']:
-        cert_name = cert['name']
-        cert_authority = cert['authority']
-        cert_date = f"{cert['timePeriod']['startDate']['month']}/{cert['timePeriod']['startDate']['year']}"
-        doc.add_paragraph(f"{cert_name} - {cert_authority} ({cert_date})")
+    if len(data['certifications']) > 0:
+        doc.add_heading("Certifications", level=1)
+        for cert in data['certifications']:
+            cert_name = cert['name']
+            cert_authority = cert['authority']
+            cert_date = f"{cert['timePeriod']['startDate']['month']}/{cert['timePeriod']['startDate']['year']}"
+            doc.add_paragraph(f"{cert_name} - {cert_authority} ({cert_date})")
 
     # Секция "Skills"
     doc.add_heading("Skills", level=1)
