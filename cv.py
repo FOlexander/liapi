@@ -80,9 +80,21 @@ def create_profile_document(data):
         school = edu['schoolName']
         degree = edu.get('degreeName', '')
         field = edu.get('fieldOfStudy', '')
-        start_year = edu['timePeriod']['startDate']['year']
-        end_year = edu['timePeriod']['endDate']['year']
-        doc.add_paragraph(f"{school}, {degree} in {field} ({start_year} - {end_year})")
+        try:
+            start_year = edu['timePeriod']['startDate']['year']
+        except KeyError:
+            start_year = None
+        try:
+            end_year = edu['timePeriod']['endDate']['year']
+        except KeyError:
+            end_year = None
+        # start_year = edu['timePeriod']['startDate']['year']
+        # end_year = edu['timePeriod']['endDate']['year']
+        if start_year and end_year:
+            doc.add_paragraph(f"{school}, {degree} in {field} ({start_year} - {end_year})")
+        else:
+            doc.add_paragraph(f"{school}, {degree} in {field} ({start_year or end_year})")
+
 
     # Секция "Certifications"
     doc.add_heading("Certifications", level=1)
