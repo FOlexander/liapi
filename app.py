@@ -1,4 +1,4 @@
-from flask import Flask, request, send_file, jsonify
+from flask import Flask, request, send_file, jsonify, make_response
 from flask_cors import CORS
 import io
 
@@ -6,7 +6,7 @@ import cv
 import lidata
 
 app = Flask(__name__)
-CORS(app)  # Включаем поддержку CORS для всех маршрутов
+CORS(app, expose_headers=["Content-Disposition", "X-Custom-Header"])  # Включаем поддержку CORS для всех маршрутов
 
 @app.route('/api/url', methods=['POST'])
 def handle_url():
@@ -20,13 +20,16 @@ def handle_url():
     profile_data = lidata.get_profile_data(url)
     file_stream, filename = cv.create_profile_document(profile_data)
 
-    # Отправляем файл как ответ
-    return send_file(
-        file_stream,
-        mimetype='application/vnd.openxmlformats-officedocument.wordprocessingml.document',
-        as_attachment=True,
-        download_name=filename
-    )
+    # Чтение содержимого файла как байты
+    file_bytes = file_stream.read()
+
+    # Создание ответа с байтовым содержимым файла
+    response = make_response(file_bytes)
+    response.headers['Content-Type'] = 'application/vnd.openxmlformats-officedocument.wordprocessingml.document'
+    response.headers['Content-Disposition'] = f'attachment; filename="{filename}"'
+    response.headers['X-Custom-Header'] = 'YourCustomValue'
+    
+    return response
 
 # Запуск приложения
 if __name__ == '__main__':

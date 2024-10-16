@@ -17,7 +17,6 @@ document.getElementById("sendUrl").addEventListener("click", function() {
         }
         // Извлекаем имя файла из заголовка Content-Disposition
         const contentDisposition = response.headers.get('Content-Disposition');
-        console.log(contentDisposition);
 
         const fileName = contentDisposition
             ? contentDisposition.split('filename=')[1].replace(/"/g, '')
