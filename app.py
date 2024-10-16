@@ -34,3 +34,16 @@ def handle_url():
 # Запуск приложения
 if __name__ == '__main__':
     app.run(debug=True, host='0.0.0.0', port=5000)
+
+#TODO
+#   1. add logs
+#   2. add error handling
+#   3. add ips
+#   4. add linkedind accounts
+#   5. add response in case of error
+#   6. add docs
+#   7. add beauty html\css for popup
+#   8. define details about personal account
+#   9. check each fields in cv.py
+
+

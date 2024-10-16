@@ -1,0 +1,80 @@
+
+
+Here's an example of how you can implement logging in your project using the `logging` module:
+
+**Create a `logging.conf` file**
+```python
+[loggers]
+keys=root
+
+[handlers]
+keys=file_handler,console_handler
+
+[formatters]
+keys=simple_formatter
+
+[logger_root]
+level=DEBUG
+handlers=file_handler,console_handler
+qualname=
+
+[handler_file_handler]
+class=FileHandler
+level=DEBUG
+formatter=simple_formatter
+args=('logs/app.log', 'a')
+
+[handler_console_handler]
+class=StreamHandler
+level=DEBUG
+formatter=simple_formatter
+args=(sys.stdout,)
+
+[formatter_simple_formatter]
+format=%(asctime)s - %(name)s - %(levelname)s - %(message)s
+datefmt=%Y-%m-%d %H:%M:%S
+```
+This configuration file sets up two handlers: one for logging to a file (`file_handler`) and one for logging to the console (`console_handler`). The `simple_formatter` formats the log messages with a timestamp, logger name, log level, and message.
+
+**Create a `logger.py` file**
+```python
+import logging.config
+
+logging.config.fileConfig('logging.conf')
+
+logger = logging.getLogger(__name__)
+```
+This file loads the logging configuration from the `logging.conf` file and creates a logger instance with the name of the current module (`__name__`).
+
+**Use the logger in your code**
+
+In your `app.py` file, add the following line at the top:
+```python
+from logger import logger
+```
+Then, use the logger to log messages:
+```python
+@app.route('/api/url', methods=['POST'])
+def handle_url():
+    logger.info('Received request to handle URL')
+    # ...
+    logger.error('Error occurred while handling URL: %s', e)
+    # ...
+```
+In your `cv.py` file, add the following line at the top:
+```python
+from logger import logger
+```
+Then, use the logger to log messages:
+```python
+def create_profile_document(data):
+    logger.info('Creating profile document for %s', data['firstName'])
+    # ...
+    logger.error('Error occurred while creating profile document: %s', e)
+    # ...
+```
+**Run your application**
+
+When you run your application, log messages will be written to the `logs/app.log` file and displayed on the console.
+
+Note that you'll need to create a `logs` directory in the root of your project for the log file to be written to.
