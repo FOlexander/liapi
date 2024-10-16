@@ -1,6 +1,7 @@
 from flask import Flask, request, send_file, jsonify, make_response
 from flask_cors import CORS
 import io
+from logger import logger
 
 import cv
 import lidata
@@ -10,6 +11,8 @@ CORS(app, expose_headers=["Content-Disposition", "X-Custom-Header"])  # Вклю
 
 @app.route('/api/url', methods=['POST'])
 def handle_url():
+    logger.info('Received request to handle URL')
+    
     data = request.get_json()
     
     # Проверяем, есть ли URL в полученных данных
@@ -17,9 +20,19 @@ def handle_url():
         return jsonify({"error": "URL is missing"}), 400
     
     url = data['url']
-    profile_data = lidata.get_profile_data(url)
-    file_stream, filename = cv.create_profile_document(profile_data)
-
+    
+    try:
+        logger.info('Receiving data for: %s',url)
+        profile_data = lidata.get_profile_data(url)
+    except Exception as e:
+        logger.error('Error occurred while receiving data for: %s %s', url, e)
+    
+    try:
+        logger.info('Creating profile document for: %s %s', url, e)
+        file_stream, filename = cv.create_profile_document(profile_data)
+    except Exception as e:
+        logger.error('Error occurred while creating profile document: %s %s', url, e)
+   
     # Чтение содержимого файла как байты
     file_bytes = file_stream.read()
 
@@ -45,5 +58,6 @@ if __name__ == '__main__':
 #   7. add beauty html\css for popup
 #   8. define details about personal account
 #   9. check each fields in cv.py
+#   10. add calculation of dowload count
 
 

@@ -1,0 +1,100 @@
+2024-10-16 16:58:20 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.16:5000
+2024-10-16 16:58:20 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-10-16 16:58:20 - werkzeug - INFO -  * Restarting with stat
+2024-10-16 16:58:21 - werkzeug - WARNING -  * Debugger is active!
+2024-10-16 16:58:21 - werkzeug - INFO -  * Debugger PIN: 460-654-618
+2024-10-16 16:59:41 - werkzeug - INFO -  * Detected change in 'd:\\sw\\Liapi\\app.py', reloading
+2024-10-16 16:59:41 - werkzeug - INFO -  * Restarting with stat
+2024-10-16 16:59:42 - werkzeug - WARNING -  * Debugger is active!
+2024-10-16 16:59:42 - werkzeug - INFO -  * Debugger PIN: 460-654-618
+2024-10-16 17:06:09 - werkzeug - INFO -  * Detected change in 'd:\\sw\\Liapi\\cv.py', reloading
+2024-10-16 17:06:09 - werkzeug - INFO -  * Restarting with stat
+2024-10-16 17:06:10 - werkzeug - WARNING -  * Debugger is active!
+2024-10-16 17:06:10 - werkzeug - INFO -  * Debugger PIN: 460-654-618
+2024-10-16 17:06:24 - werkzeug - INFO -  * Detected change in 'd:\\sw\\Liapi\\lidata.py', reloading
+2024-10-16 17:06:24 - werkzeug - INFO -  * Restarting with stat
+2024-10-16 17:06:25 - werkzeug - WARNING -  * Debugger is active!
+2024-10-16 17:06:25 - werkzeug - INFO -  * Debugger PIN: 460-654-618
+2024-10-16 17:06:42 - werkzeug - INFO -  * Detected change in 'd:\\sw\\Liapi\\lidata.py', reloading
+2024-10-16 17:06:42 - werkzeug - INFO -  * Restarting with stat
+2024-10-16 17:06:43 - werkzeug - WARNING -  * Debugger is active!
+2024-10-16 17:06:43 - werkzeug - INFO -  * Debugger PIN: 460-654-618
+2024-10-16 17:06:55 - werkzeug - INFO -  * Detected change in 'd:\\sw\\Liapi\\lidata.py', reloading
+2024-10-16 17:06:55 - werkzeug - INFO -  * Restarting with stat
+2024-10-16 17:06:56 - werkzeug - WARNING -  * Debugger is active!
+2024-10-16 17:06:56 - werkzeug - INFO -  * Debugger PIN: 460-654-618
+2024-10-16 17:07:12 - werkzeug - INFO - 192.168.0.16 - - [16/Oct/2024 17:07:12] "OPTIONS /api/url HTTP/1.1" 200 -
+2024-10-16 17:07:12 - logger - INFO - Received request to handle URL
+2024-10-16 17:07:12 - linkedin_api.client - DEBUG - Attempting to use cached cookies
+2024-10-16 17:07:12 - linkedin_api.client - DEBUG - Using cached cookies
+2024-10-16 17:07:12 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.linkedin.com:443
+2024-10-16 17:07:12 - urllib3.connectionpool - DEBUG - https://www.linkedin.com:443 "GET / HTTP/11" 200 None
+2024-10-16 17:07:13 - logger - INFO - Creating profile document for milenamarchenko
+2024-10-16 17:07:17 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.linkedin.com:443
+2024-10-16 17:07:18 - urllib3.connectionpool - DEBUG - https://www.linkedin.com:443 "GET /voyager/api/identity/profiles/milenamarchenko/profileView HTTP/11" 200 5461
+2024-10-16 17:07:18 - werkzeug - INFO - 192.168.0.16 - - [16/Oct/2024 17:07:18] "[35m[1mPOST /api/url HTTP/1.1[0m" 500 -
+2024-10-16 17:07:41 - werkzeug - INFO -  * Detected change in 'd:\\sw\\Liapi\\lidata.py', reloading
+2024-10-16 17:07:41 - werkzeug - INFO -  * Restarting with stat
+2024-10-16 17:07:42 - werkzeug - WARNING -  * Debugger is active!
+2024-10-16 17:07:42 - werkzeug - INFO -  * Debugger PIN: 460-654-618
+2024-10-16 17:07:45 - werkzeug - INFO - 192.168.0.16 - - [16/Oct/2024 17:07:45] "OPTIONS /api/url HTTP/1.1" 200 -
+2024-10-16 17:07:45 - logger - INFO - Received request to handle URL
+2024-10-16 17:07:45 - linkedin_api.client - DEBUG - Attempting to use cached cookies
+2024-10-16 17:07:45 - linkedin_api.client - DEBUG - Using cached cookies
+2024-10-16 17:07:45 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.linkedin.com:443
+2024-10-16 17:07:46 - urllib3.connectionpool - DEBUG - https://www.linkedin.com:443 "GET / HTTP/11" 200 None
+2024-10-16 17:07:47 - logger - INFO - Creating profile document for milenamarchenko
+2024-10-16 17:07:49 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.linkedin.com:443
+2024-10-16 17:07:49 - urllib3.connectionpool - DEBUG - https://www.linkedin.com:443 "GET /voyager/api/identity/profiles/milenamarchenko/profileView HTTP/11" 200 5469
+2024-10-16 17:07:49 - werkzeug - INFO - 192.168.0.16 - - [16/Oct/2024 17:07:49] "[35m[1mPOST /api/url HTTP/1.1[0m" 500 -
+2024-10-16 17:08:04 - werkzeug - INFO -  * Detected change in 'd:\\sw\\Liapi\\lidata.py', reloading
+2024-10-16 17:08:04 - werkzeug - INFO -  * Restarting with stat
+2024-10-16 17:08:05 - werkzeug - WARNING -  * Debugger is active!
+2024-10-16 17:08:05 - werkzeug - INFO -  * Debugger PIN: 460-654-618
+2024-10-16 17:08:41 - werkzeug - INFO -  * Detected change in 'd:\\sw\\Liapi\\cv.py', reloading
+2024-10-16 17:08:41 - werkzeug - INFO -  * Restarting with stat
+2024-10-16 17:08:41 - werkzeug - WARNING -  * Debugger is active!
+2024-10-16 17:08:41 - werkzeug - INFO -  * Debugger PIN: 460-654-618
+2024-10-16 17:08:54 - werkzeug - INFO -  * Detected change in 'd:\\sw\\Liapi\\app.py', reloading
+2024-10-16 17:08:54 - werkzeug - INFO -  * Restarting with stat
+2024-10-16 17:08:54 - werkzeug - WARNING -  * Debugger is active!
+2024-10-16 17:08:54 - werkzeug - INFO -  * Debugger PIN: 460-654-618
+2024-10-16 17:09:00 - werkzeug - INFO - 192.168.0.16 - - [16/Oct/2024 17:09:00] "OPTIONS /api/url HTTP/1.1" 200 -
+2024-10-16 17:09:00 - logger - INFO - Received request to handle URL
+2024-10-16 17:09:00 - linkedin_api.client - DEBUG - Attempting to use cached cookies
+2024-10-16 17:09:00 - linkedin_api.client - DEBUG - Using cached cookies
+2024-10-16 17:09:00 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.linkedin.com:443
+2024-10-16 17:09:01 - urllib3.connectionpool - DEBUG - https://www.linkedin.com:443 "GET / HTTP/11" 200 None
+2024-10-16 17:09:02 - logger - INFO - Creating profile document for milenamarchenko
+2024-10-16 17:09:05 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.linkedin.com:443
+2024-10-16 17:09:05 - urllib3.connectionpool - DEBUG - https://www.linkedin.com:443 "GET /voyager/api/identity/profiles/milenamarchenko/profileView HTTP/11" 200 5470
+2024-10-16 17:09:06 - logger - ERROR - Error occurred while creating profile document: milenamarchenko
+2024-10-16 17:09:06 - logger - INFO - Creating profile document for Milena
+2024-10-16 17:09:06 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): media.licdn.com:443
+2024-10-16 17:09:06 - urllib3.connectionpool - DEBUG - https://media.licdn.com:443 "GET /dms/image/v2/C5603AQHpzqsXIVGiwA/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1522871097417?e=1734566400&v=beta&t=JrlHSZeOLJrp_FJUONP1hVOUR_CWIoAJ21yXogbsaTw HTTP/11" 200 4039
+2024-10-16 17:09:06 - werkzeug - INFO - 192.168.0.16 - - [16/Oct/2024 17:09:06] "[35m[1mPOST /api/url HTTP/1.1[0m" 500 -
+2024-10-16 17:11:03 - werkzeug - INFO -  * Detected change in 'd:\\sw\\Liapi\\cv.py', reloading
+2024-10-16 17:11:03 - werkzeug - INFO -  * Restarting with stat
+2024-10-16 17:11:04 - werkzeug - WARNING -  * Debugger is active!
+2024-10-16 17:11:04 - werkzeug - INFO -  * Debugger PIN: 460-654-618
+2024-10-16 17:11:14 - werkzeug - INFO - 192.168.0.16 - - [16/Oct/2024 17:11:14] "OPTIONS /api/url HTTP/1.1" 200 -
+2024-10-16 17:11:14 - logger - INFO - Received request to handle URL
+2024-10-16 17:11:14 - linkedin_api.client - DEBUG - Attempting to use cached cookies
+2024-10-16 17:11:14 - linkedin_api.client - DEBUG - Using cached cookies
+2024-10-16 17:11:14 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.linkedin.com:443
+2024-10-16 17:11:15 - urllib3.connectionpool - DEBUG - https://www.linkedin.com:443 "GET / HTTP/11" 200 None
+2024-10-16 17:11:16 - logger - INFO - Creating profile document for milenamarchenko
+2024-10-16 17:11:18 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.linkedin.com:443
+2024-10-16 17:11:18 - urllib3.connectionpool - DEBUG - https://www.linkedin.com:443 "GET /voyager/api/identity/profiles/milenamarchenko/profileView HTTP/11" 200 5463
+2024-10-16 17:11:18 - logger - ERROR - Error occurred while creating profile document: milenamarchenko
+2024-10-16 17:11:19 - logger - INFO - Creating profile document for Milena
+2024-10-16 17:11:19 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): media.licdn.com:443
+2024-10-16 17:11:19 - urllib3.connectionpool - DEBUG - https://media.licdn.com:443 "GET /dms/image/v2/C5603AQHpzqsXIVGiwA/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1522871097417?e=1734566400&v=beta&t=JrlHSZeOLJrp_FJUONP1hVOUR_CWIoAJ21yXogbsaTw HTTP/11" 200 4039
+2024-10-16 17:11:19 - logger - ERROR - Error occurred while creating profile document: Milena_Marchenko
+2024-10-16 17:11:19 - logger - ERROR - Error occurred while handling URL: https://www.linkedin.com/in/milenamarchenko/
+2024-10-16 17:11:19 - werkzeug - INFO - 192.168.0.16 - - [16/Oct/2024 17:11:19] "POST /api/url HTTP/1.1" 200 -
+2024-10-16 17:13:40 - werkzeug - INFO -  * Detected change in 'd:\\sw\\Liapi\\lidata.py', reloading
+2024-10-16 17:13:40 - werkzeug - INFO -  * Restarting with stat
