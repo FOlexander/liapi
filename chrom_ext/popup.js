@@ -3,7 +3,7 @@ document.getElementById("sendUrl").addEventListener("click", function() {
     let activeTab = tabs[0];
     let url = activeTab.url;
 
-    if (url.includes("linkedin.com")) {
+    if (url.includes("linkedin.com/in/")) {
       fetch("http://192.168.0.16:5000/api/url", {
         method: "POST",
         headers: {
@@ -13,7 +13,7 @@ document.getElementById("sendUrl").addEventListener("click", function() {
       })
       .then(response => {
         if (!response.ok) {
-          throw new Error("Ошибка ответа сервера");
+          throw new Error("Server error, please try again later");
         }
         // Извлекаем имя файла из заголовка Content-Disposition
         const contentDisposition = response.headers.get('Content-Disposition');
@@ -21,6 +21,9 @@ document.getElementById("sendUrl").addEventListener("click", function() {
         const fileName = contentDisposition
             ? contentDisposition.split('filename=')[1].replace(/"/g, '')
             : 'downloaded_file.docx';
+
+        document.getElementById("status").textContent = "Profile captured!";
+        document.getElementById("download-link").classList.remove("hidden");
 
         return response.blob().then(blob => {
             const url = window.URL.createObjectURL(blob);
@@ -39,7 +42,7 @@ document.getElementById("sendUrl").addEventListener("click", function() {
         document.getElementById("status").textContent = error.message;
       });
     } else {
-      document.getElementById("status").textContent = "Это не страница LinkedIn";
+      document.getElementById("status").textContent = "Not a LinkedIn page profile page";
     }
   });
 });

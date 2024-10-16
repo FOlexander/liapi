@@ -1,11 +1,24 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>LinkedIn URL Sender</title>
+    <meta charset="UTF-8">
+    <title>LinkedIn Profile Exporter</title>
+    <link rel="stylesheet" href="popup.css">
 </head>
 <body>
-  <button id="sendUrl">Send URL</button>
-  <p id="status"></p>
-  <script src="popup.js"></script>
+    <div class="popup-container">
+        <header class="header">
+            <h1>Profile Exporter</h1>
+        </header>
+        <main class="content">
+            <p id="status">Ready to capture LinkedIn profile.</p>
+            <button id="sendUrl" class="btn">Capture Profile</button>
+            <div id="download-link" class="hidden">
+                <a id="downloadFile" href="#" download>Download Profile Document</a>
+            </div>
+        </main>
+    </div>
+
+    <script src="popup.js"></script>
 </body>
 </html>
