@@ -1,6 +1,7 @@
 liapi/
+__pycache__
 *.json
 *.docx
 *.pyc
-__pycache__
 *.txt
+*.log

@@ -11,8 +11,7 @@ CORS(app, expose_headers=["Content-Disposition", "X-Custom-Header"])  # Вклю
 
 @app.route('/api/url', methods=['POST'])
 def handle_url():
-    logger.info('Received request to handle URL')
-    
+    # Чтение JSON-данных
     data = request.get_json()
     
     # Проверяем, есть ли URL в полученных данных
@@ -25,13 +24,13 @@ def handle_url():
         logger.info('Receiving data for: %s',url)
         profile_data = lidata.get_profile_data(url)
     except Exception as e:
-        logger.error('Error occurred while receiving data for: %s %s', url, e)
+        logger.error('Error occurred while receiving data for: %s', url)
     
     try:
-        logger.info('Creating profile document for: %s %s', url, e)
+        logger.info('Creating profile document for: %s', url)
         file_stream, filename = cv.create_profile_document(profile_data)
     except Exception as e:
-        logger.error('Error occurred while creating profile document: %s %s', url, e)
+        logger.error('Error occurred while creating profile document: %s', url)
    
     # Чтение содержимого файла как байты
     file_bytes = file_stream.read()
@@ -49,7 +48,6 @@ if __name__ == '__main__':
     app.run(debug=True, host='0.0.0.0', port=5000)
 
 #TODO
-#   1. add logs
 #   2. add error handling
 #   3. add ips
 #   4. add linkedind accounts
