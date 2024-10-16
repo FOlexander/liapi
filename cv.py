@@ -46,7 +46,10 @@ def create_profile_document(data):
 
     # Добавление изображения в правую ячейку
     image_cell = table.cell(0, 1)
-    insert_image_in_cell(image_cell, data['displayPictureUrl'] + data['img_100_100'], width=1.5)
+    try:
+        insert_image_in_cell(image_cell, data['displayPictureUrl'] + data['img_200_200'], width=1.5)
+    except:
+        insert_image_in_cell(image_cell, data['displayPictureUrl'] + data['img_100_100'], width=1.5)
 
     # Секция "Summary"
     summary = data.get('summary', '')
@@ -75,25 +78,26 @@ def create_profile_document(data):
         doc.add_paragraph(experience.get('description', ''))
 
     # Секция "Education"
-    doc.add_heading("Education", level=1)
-    for edu in data['education']:
-        school = edu['schoolName']
-        degree = edu.get('degreeName', '')
-        field = edu.get('fieldOfStudy', '')
-        try:
-            start_year = edu['timePeriod']['startDate']['year']
-        except KeyError:
-            start_year = None
-        try:
-            end_year = edu['timePeriod']['endDate']['year']
-        except KeyError:
-            end_year = None
-        # start_year = edu['timePeriod']['startDate']['year']
-        # end_year = edu['timePeriod']['endDate']['year']
-        if start_year and end_year:
-            doc.add_paragraph(f"{school}, {degree} in {field} ({start_year} - {end_year})")
-        else:
-            doc.add_paragraph(f"{school}, {degree} in {field} ({start_year or end_year})")
+    if len(data['education']) > 0:
+        doc.add_heading("Education", level=1)
+        for edu in data['education']:
+            school = edu['schoolName']
+            degree = edu.get('degreeName', '')
+            field = edu.get('fieldOfStudy', '')
+            try:
+                start_year = edu['timePeriod']['startDate']['year']
+            except KeyError:
+                start_year = None
+            try:
+                end_year = edu['timePeriod']['endDate']['year']
+            except KeyError:
+                end_year = None
+            # start_year = edu['timePeriod']['startDate']['year']
+            # end_year = edu['timePeriod']['endDate']['year']
+            if start_year and end_year:
+                doc.add_paragraph(f"{school}, {degree} in {field} ({start_year} - {end_year})")
+            else:
+                doc.add_paragraph(f"{school}, {degree} in {field} ({start_year or end_year})")
 
 
     # Секция "Certifications"
