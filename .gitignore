@@ -2,3 +2,4 @@ liapi/
 *.json
 *.docx
 *.pyc
+__pycache__
