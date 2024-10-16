@@ -3,3 +3,4 @@ liapi/
 *.docx
 *.pyc
 __pycache__
+.txt
