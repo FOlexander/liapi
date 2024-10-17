@@ -6,3 +6,4 @@ log/
 *.pyc
 *.txt
 *.log
+*.db
