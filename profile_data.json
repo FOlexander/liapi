@@ -1,0 +1,503 @@
+{
+    "summary": "Design generalist\u00a0with over 7 years of expertise in digital products, UX, and brand management, specializing in fintech, e-commerce, and regulation-intensive projects. Proven ability to drive projects to completion and identify non-trivial solutions. Strong skills in visual design, conceptualization, and tackling complex challenges using design methods. Proficient in leading teams, delegating tasks based on strengths, and fostering collaboration with multifunctional teams to achieve shared goals. Recently earned a degree in Interaction Design, with a keen interest in privacy UX and usable security challenges.\n\nLooking ahead, I am eager to help launch innovative projects by utilizing my design expertise and applying design methodologies to tackle future challenges. \n\nI want to continue researching the complex landscapes of privacy and usable security, as well as their implications on user experiences, building on the foundation established during my master\u2019s degree.",
+    "industryName": "Design",
+    "lastName": "Biki",
+    "locationName": "Germany",
+    "student": false,
+    "geoCountryName": "Germany",
+    "geoCountryUrn": "urn:li:fs_geo:101282230",
+    "geoLocationBackfilled": false,
+    "elt": false,
+    "industryUrn": "urn:li:fs_industry:99",
+    "firstName": "Viktoria",
+    "entityUrn": "urn:li:fs_profile:ACoAAAWk_V0BcDnSNH-9PEsUVM9w0JnGinb1zSQ",
+    "geoLocation": {
+        "geoUrn": "urn:li:fs_geo:101217094"
+    },
+    "geoLocationName": "Wiesbaden, Hesse",
+    "location": {
+        "basicLocation": {
+            "countryCode": "de"
+        }
+    },
+    "headline": "Senior digital product designer and tech creative, MA Interaction Design, MSc Management",
+    "displayPictureUrl": "https://media.licdn.com/dms/image/v2/C5603AQEENH6xn2Q4QA/profile-displayphoto-shrink_",
+    "img_100_100": "100_100/profile-displayphoto-shrink_100_100/0/1593711105222?e=1734566400&v=beta&t=Vt7oV7xfTKbcC_S_QCf3wrnSTcdGHrIvYeFsnucqkRo",
+    "img_200_200": "200_200/profile-displayphoto-shrink_200_200/0/1593711105223?e=1734566400&v=beta&t=j69Z1V4iScnBu_FDGj_P2nFzcmSCMClwaeDXDdUCTsg",
+    "img_400_400": "400_400/profile-displayphoto-shrink_400_400/0/1593711105223?e=1734566400&v=beta&t=UF-7e5_PkjZHRylk5--TOHUUmLGHUD_BwSi-L5VPrMI",
+    "img_526_526": "800_800/profile-displayphoto-shrink_800_800/0/1593711105223?e=1734566400&v=beta&t=XJnbYQdTRRxtRm4IS1Bsb8j3kL4P5PIwVZLLAjBgcjU",
+    "profile_id": "ACoAAAWk_V0BcDnSNH-9PEsUVM9w0JnGinb1zSQ",
+    "profile_urn": "urn:li:fs_miniProfile:ACoAAAWk_V0BcDnSNH-9PEsUVM9w0JnGinb1zSQ",
+    "member_urn": "urn:li:member:94698845",
+    "public_id": "bikiviki",
+    "experience": [
+        {
+            "locationName": "Budapest, Hungary",
+            "entityUrn": "urn:li:fs_position:(ACoAAAWk_V0BcDnSNH-9PEsUVM9w0JnGinb1zSQ,971122014)",
+            "geoLocationName": "Budapest, Hungary",
+            "companyName": "Self-employed",
+            "timePeriod": {
+                "startDate": {
+                    "month": 12,
+                    "year": 2016
+                }
+            },
+            "description": "- Worked as an external design expert and researcher for several long term customers. \n- Consulted entrepreneurs on Design Thinking, Product Strategies and Product launch in digital.\n- Conducted usability audits for big scale e-commerce stores, where my findings improved metrics, increased conversion and helped budget cost reduction.\n* For case studies please contact me.",
+            "title": "Design Strategist & Consultant"
+        },
+        {
+            "entityUrn": "urn:li:fs_position:(ACoAAAWk_V0BcDnSNH-9PEsUVM9w0JnGinb1zSQ,1831400486)",
+            "companyName": "InBonds",
+            "timePeriod": {
+                "endDate": {
+                    "month": 1,
+                    "year": 2022
+                },
+                "startDate": {
+                    "month": 7,
+                    "year": 2020
+                }
+            },
+            "description": "Responsible for design of complex web interfaces for a B2B bond analytics and portfolio management platform to provide improved experience of processing, surfacing market data and decision making for bond issuers and pro investors.",
+            "title": "Senior Product Designer"
+        },
+        {
+            "locationName": "Budapest, Hungary",
+            "entityUrn": "urn:li:fs_position:(ACoAAAWk_V0BcDnSNH-9PEsUVM9w0JnGinb1zSQ,1634836014)",
+            "geoLocationName": "Budapest, Hungary",
+            "geoUrn": "urn:li:fs_geo:106079947",
+            "companyName": "reNEW Technologies",
+            "timePeriod": {
+                "endDate": {
+                    "month": 3,
+                    "year": 2019
+                },
+                "startDate": {
+                    "month": 10,
+                    "year": 2018
+                }
+            },
+            "description": "- Was honored to participate in the launch of the world\u2019s first recycled cleaner.\n- Worked on e-commerce, UX/UI, customer experience for biotech projects.",
+            "company": {
+                "employeeCountRange": {
+                    "start": 11,
+                    "end": 50
+                },
+                "industries": [
+                    "Biotechnology"
+                ]
+            },
+            "title": "Customer Experience Designer",
+            "region": "urn:li:fs_region:(hu,0)",
+            "companyUrn": "urn:li:fs_miniCompany:18084945",
+            "companyLogoUrl": "https://media.licdn.com/dms/image/v2/C560BAQGaJWnrDIb-tA/company-logo_"
+        },
+        {
+            "entityUrn": "urn:li:fs_position:(ACoAAAWk_V0BcDnSNH-9PEsUVM9w0JnGinb1zSQ,1634833545)",
+            "companyName": "Quantorium",
+            "timePeriod": {
+                "endDate": {
+                    "month": 11,
+                    "year": 2018
+                },
+                "startDate": {
+                    "month": 6,
+                    "year": 2018
+                }
+            },
+            "description": "Responsible for UX research and UX design, UI design and user testing for fintech project and a real estate marketplace platform.",
+            "title": "UX/UI designer"
+        },
+        {
+            "locationName": "Kharkiv, Ukraine",
+            "entityUrn": "urn:li:fs_position:(ACoAAAWk_V0BcDnSNH-9PEsUVM9w0JnGinb1zSQ,1626455474)",
+            "geoLocationName": "Kharkiv, Ukraine",
+            "geoUrn": "urn:li:fs_geo:101458149",
+            "companyName": "Kostagas LTD",
+            "timePeriod": {
+                "endDate": {
+                    "month": 12,
+                    "year": 2013
+                },
+                "startDate": {
+                    "year": 2011
+                }
+            },
+            "description": "- Maintained brand integrity of 4 product brands and a corporate brand across all company communications.\n- Launched new brands and participated in marketing strategy development.\n- Developed solutions on customer experience improvement based on customers insight analysis.\n- Managed budget, planning and execution of all brand communications in all channels.",
+            "title": "Brand Manager",
+            "region": "urn:li:fs_region:(ua,0)"
+        }
+    ],
+    "education": [
+        {
+            "entityUrn": "urn:li:fs_education:(ACoAAAWk_V0BcDnSNH-9PEsUVM9w0JnGinb1zSQ,995174375)",
+            "school": {
+                "objectUrn": "urn:li:school:3229005",
+                "entityUrn": "urn:li:fs_miniSchool:3229005",
+                "active": true,
+                "schoolName": "MOME Budapest",
+                "trackingId": "35Y4G0eMTP24NxAzUD4u5Q==",
+                "logoUrl": "https://media.licdn.com/dms/image/v2/C560BAQHu1iDXxb3RTA/company-logo_"
+            },
+            "activities": "In my diploma thesis, I researched the personalization-privacy paradox. For my master project, I conducted research through design on the topic of the \"right to be forgotten\", exploring how biomimicry could address data protection challenges. Let me know if you are interested in a talk or a workshop on Privacy UX related topic.",
+            "timePeriod": {
+                "endDate": {
+                    "year": 2024
+                },
+                "startDate": {
+                    "year": 2022
+                }
+            },
+            "description": "- Privacy UX \n- Usable Security \n- Ethics in Tech \n- AI as Design Material\n- Emerging Technologies \n- Robotics \n- Speculative Design \n- Participatory Design \n- Designing for Future Challenges \n- Future Casting \n- Design Fiction \n- Research Through Design \n- Workshop Facilitation \n- More-Than-Human Design \n- Biomimicry \n- Service Design\n- Art+Tech+Science",
+            "degreeName": "Master's degree",
+            "schoolName": "MOME Budapest",
+            "fieldOfStudy": "Interaction Design and User Experience",
+            "degreeUrn": "urn:li:fs_degree:500",
+            "schoolUrn": "urn:li:fs_miniSchool:3229005"
+        },
+        {
+            "entityUrn": "urn:li:fs_education:(ACoAAAWk_V0BcDnSNH-9PEsUVM9w0JnGinb1zSQ,656791245)",
+            "school": {
+                "objectUrn": "urn:li:school:3229005",
+                "entityUrn": "urn:li:fs_miniSchool:3229005",
+                "active": true,
+                "schoolName": "MOME Budapest",
+                "trackingId": "v8kWF2EvSK+VFWurmhJzHA==",
+                "logoUrl": "https://media.licdn.com/dms/image/v2/C560BAQHu1iDXxb3RTA/company-logo_"
+            },
+            "grade": "Training Course",
+            "timePeriod": {
+                "endDate": {
+                    "year": 2017
+                },
+                "startDate": {
+                    "year": 2017
+                }
+            },
+            "description": "- Human Computer Interaction\n- Design Thinking methodology\n- Emotional design and psychology basics\n- UX research methodology\n- Information architecture\n- Lo-fi, Hi-fi prototyping, wireframes\n- Mobile App design\n- Usability testing\n- Design Systems\n- UI design, web UI, responsive design\n- Design critique",
+            "schoolName": "Moholy-Nagy University of Art and Design, Budapest",
+            "fieldOfStudy": "Digital Product Designer",
+            "schoolUrn": "urn:li:fs_miniSchool:3229005"
+        },
+        {
+            "entityUrn": "urn:li:fs_education:(ACoAAAWk_V0BcDnSNH-9PEsUVM9w0JnGinb1zSQ,656791270)",
+            "school": {
+                "objectUrn": "urn:li:school:3229005",
+                "entityUrn": "urn:li:fs_miniSchool:3229005",
+                "active": true,
+                "schoolName": "MOME Budapest",
+                "trackingId": "DzpIr+lSToyLsWzE3xBQPw==",
+                "logoUrl": "https://media.licdn.com/dms/image/v2/C560BAQHu1iDXxb3RTA/company-logo_"
+            },
+            "grade": "Certificate of Achievement with Excellence",
+            "timePeriod": {
+                "endDate": {
+                    "year": 2018
+                },
+                "startDate": {
+                    "year": 2017
+                }
+            },
+            "description": "Typo 2.0.\n- Web animation with CSS, Java Script\n- Kinetic typography\n- Typeface design\n- Responsive layout\n- After Effects animation\nTypo 1.0.\n- Layouts and grids\n- Modern typography\n- Automation with Adobe Indesign",
+            "schoolName": "Moholy-Nagy University of Art and Design, Budapest",
+            "fieldOfStudy": "Experimental digital typography",
+            "schoolUrn": "urn:li:fs_miniSchool:3229005"
+        }
+    ],
+    "languages": [
+        {
+            "name": "English",
+            "proficiency": "FULL_PROFESSIONAL"
+        },
+        {
+            "name": "German",
+            "proficiency": "LIMITED_WORKING"
+        },
+        {
+            "name": "Hungarian",
+            "proficiency": "NATIVE_OR_BILINGUAL"
+        },
+        {
+            "name": "Russian",
+            "proficiency": "NATIVE_OR_BILINGUAL"
+        },
+        {
+            "name": "Ukrainian",
+            "proficiency": "NATIVE_OR_BILINGUAL"
+        }
+    ],
+    "publications": [],
+    "certifications": [
+        {
+            "authority": "The Interaction Design Foundation",
+            "name": "Membership Certificate",
+            "timePeriod": {
+                "startDate": {
+                    "month": 12,
+                    "year": 2019
+                }
+            },
+            "licenseNumber": "69919",
+            "company": {
+                "objectUrn": "urn:li:company:15098063",
+                "entityUrn": "urn:li:fs_miniCompany:15098063",
+                "name": "IxDF - The Interaction Design Foundation",
+                "showcase": false,
+                "active": true,
+                "logo": {
+                    "com.linkedin.common.VectorImage": {
+                        "artifacts": [
+                            {
+                                "width": 200,
+                                "fileIdentifyingUrlPathSegment": "200_200/company-logo_200_200/0/1728056596901/the_interaction_design_foundation_logo?e=1736985600&v=beta&t=AYzNJTGVlH_dvcvS3PMHWnIAI9IQ4auQhjyK7ZmVJs0",
+                                "expiresAt": 1736985600000,
+                                "height": 200
+                            },
+                            {
+                                "width": 100,
+                                "fileIdentifyingUrlPathSegment": "100_100/company-logo_100_100/0/1728056596901/the_interaction_design_foundation_logo?e=1736985600&v=beta&t=DX7DeXPbYVjjLsdbsGPQdEyfqFAbShMmvr99oVJK3Ao",
+                                "expiresAt": 1736985600000,
+                                "height": 100
+                            },
+                            {
+                                "width": 400,
+                                "fileIdentifyingUrlPathSegment": "400_400/company-logo_400_400/0/1728056596901/the_interaction_design_foundation_logo?e=1736985600&v=beta&t=D18OQZY6uNbuztaC0z0v3l-kLr_LQ59ksUConiVjLuY",
+                                "expiresAt": 1736985600000,
+                                "height": 400
+                            }
+                        ],
+                        "rootUrl": "https://media.licdn.com/dms/image/v2/D4E0BAQFaocJKpsJc3Q/company-logo_"
+                    }
+                },
+                "universalName": "the-interaction-design-foundation",
+                "dashCompanyUrn": "urn:li:fsd_company:15098063",
+                "trackingId": "8Wp230iSSmqcce/QMh780A=="
+            },
+            "displaySource": "interaction-design.org",
+            "companyUrn": "urn:li:fs_miniCompany:15098063",
+            "url": "https://www.interaction-design.org/viktoria-2/certificate/membership/QjFpVGMV8"
+        },
+        {
+            "authority": "\u00abSpecialist\u00bb Computer Training Center",
+            "name": "Adobe authorized training: \"Adobe Photoshop: Advanced features\"",
+            "timePeriod": {
+                "startDate": {
+                    "month": 2,
+                    "year": 2008
+                }
+            },
+            "company": {
+                "objectUrn": "urn:li:company:19216324",
+                "entityUrn": "urn:li:fs_miniCompany:19216324",
+                "name": "Adobe Creative Suite",
+                "showcase": false,
+                "active": false,
+                "logo": {
+                    "com.linkedin.common.VectorImage": {
+                        "artifacts": [
+                            {
+                                "width": 200,
+                                "fileIdentifyingUrlPathSegment": "200_200/company-logo_200_200/0/1630580750402/adobe_creative_suite_logo?e=1736985600&v=beta&t=bP2CUsJhUwfVZVH7NxCvdxsHixj75DucBjA8F2gXtBc",
+                                "expiresAt": 1736985600000,
+                                "height": 200
+                            },
+                            {
+                                "width": 100,
+                                "fileIdentifyingUrlPathSegment": "100_100/company-logo_100_100/0/1630580750402/adobe_creative_suite_logo?e=1736985600&v=beta&t=D7vCYnT7h9mlDlaY7VCgVoN-nucDWfF8_4cRQ1d_0Q0",
+                                "expiresAt": 1736985600000,
+                                "height": 100
+                            },
+                            {
+                                "width": 400,
+                                "fileIdentifyingUrlPathSegment": "400_400/company-logo_400_400/0/1630580750402/adobe_creative_suite_logo?e=1736985600&v=beta&t=eUQmju9pYpBlj9lNApp7zvnBrhb3TI9FBI8BUkfppfk",
+                                "expiresAt": 1736985600000,
+                                "height": 400
+                            }
+                        ],
+                        "rootUrl": "https://media.licdn.com/dms/image/v2/C560BAQF_ZouMfYUaDA/company-logo_"
+                    }
+                },
+                "universalName": "adobecreative",
+                "dashCompanyUrn": "urn:li:fsd_company:19216324",
+                "trackingId": "EsKO/mlmS3isA+0H526Y6A=="
+            },
+            "companyUrn": "urn:li:fs_miniCompany:19216324"
+        },
+        {
+            "authority": "\u00abSpecialist\u00bb Computer Training Center",
+            "name": "HTML and CSS: Creating websites with W3C standards for HTML5 and CSS3",
+            "timePeriod": {
+                "startDate": {
+                    "month": 5,
+                    "year": 2014
+                }
+            },
+            "company": {
+                "objectUrn": "urn:li:company:155015",
+                "entityUrn": "urn:li:fs_miniCompany:155015",
+                "name": "\u0423\u0447\u0435\u0431\u043d\u044b\u0439 \u0446\u0435\u043d\u0442\u0440 \u00ab\u0421\u043f\u0435\u0446\u0438\u0430\u043b\u0438\u0441\u0442\u00bb \u043f\u0440\u0438 \u041c\u0413\u0422\u0423 \u0438\u043c. \u041d.\u042d. \u0411\u0430\u0443\u043c\u0430\u043d\u0430",
+                "showcase": false,
+                "active": true,
+                "logo": {
+                    "com.linkedin.common.VectorImage": {
+                        "artifacts": [
+                            {
+                                "width": 200,
+                                "fileIdentifyingUrlPathSegment": "200_200/company-logo_200_200/0/1685598859322/specialistru_logo?e=1736985600&v=beta&t=0-QIZEZMCyeMep97jrLGv5SJZjVvj1zfCbGWeMO_PJw",
+                                "expiresAt": 1736985600000,
+                                "height": 200
+                            },
+                            {
+                                "width": 100,
+                                "fileIdentifyingUrlPathSegment": "100_100/company-logo_100_100/0/1685598859322/specialistru_logo?e=1736985600&v=beta&t=2YCNAElF1IwaPFWgvuVP9BhSgRM4YUZRjuAUvvzCgsw",
+                                "expiresAt": 1736985600000,
+                                "height": 100
+                            },
+                            {
+                                "width": 400,
+                                "fileIdentifyingUrlPathSegment": "400_400/company-logo_400_400/0/1685598859323/specialistru_logo?e=1736985600&v=beta&t=oqnI5AlFI-YgF0xc_Wzj6991OkOKudsVjE8odEpy2kU",
+                                "expiresAt": 1736985600000,
+                                "height": 400
+                            }
+                        ],
+                        "rootUrl": "https://media.licdn.com/dms/image/v2/D560BAQEa3BmFpq2lpw/company-logo_"
+                    }
+                },
+                "universalName": "specialist.ru",
+                "dashCompanyUrn": "urn:li:fsd_company:155015",
+                "trackingId": "66Slk0VrTo2yRGoAjJgeGQ=="
+            },
+            "companyUrn": "urn:li:fs_miniCompany:155015"
+        },
+        {
+            "authority": "Accenture",
+            "name": "DIGITAL SKILLS: DIGITAL MARKETING",
+            "timePeriod": {
+                "startDate": {
+                    "month": 4,
+                    "year": 2020
+                }
+            },
+            "company": {
+                "objectUrn": "urn:li:company:1033",
+                "entityUrn": "urn:li:fs_miniCompany:1033",
+                "name": "Accenture",
+                "showcase": false,
+                "active": true,
+                "logo": {
+                    "com.linkedin.common.VectorImage": {
+                        "artifacts": [
+                            {
+                                "width": 200,
+                                "fileIdentifyingUrlPathSegment": "200_200/company-logo_200_200/0/1723130689960/accenture_logo?e=1736985600&v=beta&t=Dt2E4wRvFv1y2_wxY_Vg6dyvsSnJ2vBqwutZzNIx5zw",
+                                "expiresAt": 1736985600000,
+                                "height": 200
+                            },
+                            {
+                                "width": 100,
+                                "fileIdentifyingUrlPathSegment": "100_100/company-logo_100_100/0/1723130689960/accenture_logo?e=1736985600&v=beta&t=5ER1ox2QHxxwDjMbWG2ENU-J0I2o2Xvxw3CJCAY9HsM",
+                                "expiresAt": 1736985600000,
+                                "height": 100
+                            },
+                            {
+                                "width": 400,
+                                "fileIdentifyingUrlPathSegment": "400_400/company-logo_400_400/0/1723130689960/accenture_logo?e=1736985600&v=beta&t=NEXHHSIOZU_h-Wu2QUmOsxFbignDEoZ8YZAPVdoXLns",
+                                "expiresAt": 1736985600000,
+                                "height": 400
+                            }
+                        ],
+                        "rootUrl": "https://media.licdn.com/dms/image/v2/D4E0BAQHDbmrSIZ2UdA/company-logo_"
+                    }
+                },
+                "universalName": "accenture",
+                "dashCompanyUrn": "urn:li:fsd_company:1033",
+                "trackingId": "SGUvEdJBQsqWX//ZZdzixQ=="
+            },
+            "displaySource": "futurelearn.com",
+            "companyUrn": "urn:li:fs_miniCompany:1033",
+            "url": "https://www.futurelearn.com/certificates/bf3odax"
+        },
+        {
+            "authority": "DesignThinkers Academy Eastern Europe",
+            "name": "Service Design Fundamentals Training",
+            "timePeriod": {
+                "startDate": {
+                    "month": 10,
+                    "year": 2020
+                }
+            },
+            "company": {
+                "objectUrn": "urn:li:company:36015820",
+                "entityUrn": "urn:li:fs_miniCompany:36015820",
+                "name": "DesignThinkers Academy Eastern Europe",
+                "showcase": false,
+                "active": true,
+                "logo": {
+                    "com.linkedin.common.VectorImage": {
+                        "artifacts": [
+                            {
+                                "width": 200,
+                                "fileIdentifyingUrlPathSegment": "200_200/company-logo_200_200/0/1630594752171/designthinkersacademy_easterneurope_logo?e=1736985600&v=beta&t=PJouWEDXqD-sq9z49Hmn1IJFnKQAHy9N6l8Su0ZFYCA",
+                                "expiresAt": 1736985600000,
+                                "height": 200
+                            },
+                            {
+                                "width": 100,
+                                "fileIdentifyingUrlPathSegment": "100_100-alternative/company-logo_100_100-alternative/0/1630594752172/designthinkersacademy_easterneurope_logo?e=1736985600&v=beta&t=joFZh1nsKMUv0Mpp9YeJkDH9bPBbHpjzVWMjaeAWAp4",
+                                "expiresAt": 1736985600000,
+                                "height": 100
+                            },
+                            {
+                                "width": 200,
+                                "fileIdentifyingUrlPathSegment": "200_200-alternative/company-logo_200_200-alternative/0/1630594752172/designthinkersacademy_easterneurope_logo?e=1736985600&v=beta&t=GV0BpTH5tvCmbcq2PdPSeKHXw6TZAD0KqXArLwxjP6Q",
+                                "expiresAt": 1736985600000,
+                                "height": 200
+                            },
+                            {
+                                "width": 100,
+                                "fileIdentifyingUrlPathSegment": "100_100/company-logo_100_100/0/1630594752172/designthinkersacademy_easterneurope_logo?e=1736985600&v=beta&t=UhmZ4_50BIKHurfA99t0F2HxyYb-7jUQ7ssOg-MKvr8",
+                                "expiresAt": 1736985600000,
+                                "height": 100
+                            },
+                            {
+                                "width": 400,
+                                "fileIdentifyingUrlPathSegment": "400_400-alternative/company-logo_400_400-alternative/0/1630594752172/designthinkersacademy_easterneurope_logo?e=1736985600&v=beta&t=-V-90pescHINNLjAT-P1etXVZUOdkk8TQEoj6rRezRo",
+                                "expiresAt": 1736985600000,
+                                "height": 400
+                            },
+                            {
+                                "width": 400,
+                                "fileIdentifyingUrlPathSegment": "400_400/company-logo_400_400/0/1630594752172/designthinkersacademy_easterneurope_logo?e=1736985600&v=beta&t=H5zosQef9j1eVP3yw4DOI_GcmowborEUGblUsf7hK-s",
+                                "expiresAt": 1736985600000,
+                                "height": 400
+                            }
+                        ],
+                        "rootUrl": "https://media.licdn.com/dms/image/v2/C4E0BAQFpVKURKpF4_A/company-logo_"
+                    }
+                },
+                "universalName": "designthinkersacademy-easterneurope",
+                "dashCompanyUrn": "urn:li:fsd_company:36015820",
+                "trackingId": "coOs+CF4RUy3F7QTZFjGqg=="
+            },
+            "companyUrn": "urn:li:fs_miniCompany:36015820"
+        }
+    ],
+    "volunteer": [],
+    "honors": [],
+    "projects": [],
+    "skills": [
+        {
+            "name": "Interactive Web"
+        },
+        {
+            "name": "Payments"
+        },
+        {
+            "name": "Cryptocurrency"
+        },
+        {
+            "name": "FinTech"
+        }
+    ],
+    "urn_id": "ACoAAAWk_V0BcDnSNH-9PEsUVM9w0JnGinb1zSQ"
+}

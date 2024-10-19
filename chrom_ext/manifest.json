@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "CV Maker",
+  "version": "1.0",
+  "description": "Automatically converts profile into a polished resume",
+  "permissions": ["tabs", "activeTab"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "CV Maker"
+  },
+  "author": "FAS",
+  "icons" : {
+     "48" : "images/CVB.png",
+     "128" : "images/CVB.png"
+  },
+}

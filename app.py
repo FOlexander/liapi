@@ -105,6 +105,7 @@ if __name__ == '__main__':
 #   4. add linkedind accounts
 #   6. add docs
 #   8. define details about personal account
+#   11. add limitation for download from one ip 5 per day
 #   10. add calculation of dowload count / Done
 #   2. add error handling / Done
 #   9. check each fields in cv.py / Done
