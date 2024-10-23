@@ -4,7 +4,7 @@ document.getElementById("sendUrl").addEventListener("click", function() {
     let url = activeTab.url;
 
     if (url.includes("linkedin.com/in/")) {
-      fetch("http://192.168.0.16:5000/api/url", {
+      fetch("http://127.0.0.1:5000/api/url", {
         method: "POST",
         headers: {
           "Content-Type": "application/json"
