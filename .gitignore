@@ -1,7 +1,7 @@
 .lliapi/
 liapi/
 __pycache__
-log/
+logs/
 *.docx
 *.pyc
 *.txt
