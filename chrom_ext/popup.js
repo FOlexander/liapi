@@ -13,7 +13,6 @@ document.getElementById("sendUrl").addEventListener("click", function() {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
-          "X-Extension-Key": chrome.runtime.getManifest().key
         },
         body: JSON.stringify({ url: url })
       })
