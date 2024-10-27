@@ -8,7 +8,7 @@ import lidata
 
 app = Flask(__name__)
 CORS(app, expose_headers=["Content-Disposition", "X-Custom-Header"])
-
+API_KEY = "YOUR_SECRET_KEY"
 # Путь к базе данных
 DATABASE = 'requests.db'
 
@@ -45,6 +45,13 @@ def close_connection(exception):
 
 @app.route('/api/url', methods=['POST'])
 def handle_url():
+    # Проверка ключа
+    client_key = request.headers.get("X-Extension-Key")
+    print(client_key)
+    if client_key != API_KEY:
+        return make_response(jsonify({"error": "Unauthorized"}), 403)
+    
+    
     # Чтение JSON-данных
     data = request.get_json()
     

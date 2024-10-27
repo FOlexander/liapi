@@ -15,5 +15,6 @@
   "icons" : {
      "48" : "images/CVB.png",
      "128" : "images/CVB.png"
-  }
+  },
+  "key": "YOUR_SECRET_KEY"
 }

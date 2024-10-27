@@ -1,13 +1,19 @@
 document.getElementById("sendUrl").addEventListener("click", function() {
+  const loader = document.getElementById("loader");
+  const statusText = document.getElementById("status");
+  
   chrome.tabs.query({ active: true, currentWindow: true }, function(tabs) {
     let activeTab = tabs[0];
     let url = activeTab.url;
 
     if (url.includes("linkedin.com/in/")) {
+      loader.classList.remove("hidden");
+
       fetch("http://127.0.0.1:5000/api/url", {
         method: "POST",
         headers: {
-          "Content-Type": "application/json"
+          "Content-Type": "application/json",
+          "X-Extension-Key": chrome.runtime.getManifest().key
         },
         body: JSON.stringify({ url: url })
       })
@@ -40,6 +46,9 @@ document.getElementById("sendUrl").addEventListener("click", function() {
       .catch(error => {
         console.error("Failed to send URL:", error);
         document.getElementById("status").textContent = error.message;
+      })
+      .finally(() => {
+        loader.classList.add("hidden");
       });
     } else {
       document.getElementById("status").textContent = "Not a LinkedIn page profile page";

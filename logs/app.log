@@ -398,3 +398,69 @@ UnicodeEncodeError: 'latin-1' codec can't encode characters in position 43-49: o
 2024-10-17 21:21:49 - werkzeug - INFO -  * Restarting with stat
 2024-10-17 21:21:49 - werkzeug - WARNING -  * Debugger is active!
 2024-10-17 21:21:49 - werkzeug - INFO -  * Debugger PIN: 460-654-618
+2024-10-27 16:59:38 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.21.110.41:5000
+2024-10-27 16:59:38 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-10-27 16:59:38 - werkzeug - INFO -  * Restarting with stat
+2024-10-27 16:59:40 - werkzeug - WARNING -  * Debugger is active!
+2024-10-27 16:59:40 - werkzeug - INFO -  * Debugger PIN: 224-662-039
+2024-10-27 17:00:10 - werkzeug - INFO - 127.0.0.1 - - [27/Oct/2024 17:00:10] "OPTIONS /api/url HTTP/1.1" 200 -
+2024-10-27 17:00:10 - logger - INFO - Receiving data for: https://www.linkedin.com/in/vicsor/
+2024-10-27 17:00:10 - linkedin_api.client - DEBUG - Attempting to use cached cookies
+2024-10-27 17:00:10 - linkedin_api.client - DEBUG - Using cached cookies
+2024-10-27 17:00:10 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.linkedin.com:443
+2024-10-27 17:00:11 - urllib3.connectionpool - DEBUG - https://www.linkedin.com:443 "GET / HTTP/11" 200 None
+2024-10-27 17:00:16 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.linkedin.com:443
+2024-10-27 17:00:17 - urllib3.connectionpool - DEBUG - https://www.linkedin.com:443 "GET /voyager/api/identity/profiles/vicsor/profileView HTTP/11" 200 4904
+2024-10-27 17:00:17 - logger - INFO - Creating profile document for: https://www.linkedin.com/in/vicsor/
+2024-10-27 17:00:17 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): media.licdn.com:443
+2024-10-27 17:00:17 - urllib3.connectionpool - DEBUG - https://media.licdn.com:443 "GET /dms/image/v2/D4D35AQHIxfPLQBdFZg/profile-framedphoto-shrink_200_200/profile-framedphoto-shrink_200_200/0/1728891287284?e=1730649600&v=beta&t=zTb2jeNSP2JnsjPJ2Md-p8kOP3SMOW2NtiDOm9vELGg HTTP/11" 200 7980
+2024-10-27 17:00:17 - werkzeug - INFO - 127.0.0.1 - - [27/Oct/2024 17:00:17] "POST /api/url HTTP/1.1" 200 -
+2024-10-27 17:09:13 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.21.110.41:5000
+2024-10-27 17:09:13 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-10-27 17:09:13 - werkzeug - INFO -  * Restarting with stat
+2024-10-27 17:09:15 - werkzeug - WARNING -  * Debugger is active!
+2024-10-27 17:09:15 - werkzeug - INFO -  * Debugger PIN: 224-662-039
+2024-10-27 17:19:19 - werkzeug - INFO - 127.0.0.1 - - [27/Oct/2024 17:19:19] "OPTIONS /api/url HTTP/1.1" 200 -
+2024-10-27 17:19:19 - logger - INFO - Receiving data for: https://www.linkedin.com/in/viktoria-shydei-344bb3317/
+2024-10-27 17:19:19 - linkedin_api.client - DEBUG - Attempting to use cached cookies
+2024-10-27 17:19:19 - linkedin_api.client - DEBUG - Using cached cookies
+2024-10-27 17:19:19 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.linkedin.com:443
+2024-10-27 17:19:20 - urllib3.connectionpool - DEBUG - https://www.linkedin.com:443 "GET / HTTP/11" 200 None
+2024-10-27 17:19:23 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.linkedin.com:443
+2024-10-27 17:19:24 - urllib3.connectionpool - DEBUG - https://www.linkedin.com:443 "GET /voyager/api/identity/profiles/viktoria-shydei-344bb3317/profileView HTTP/11" 200 2176
+2024-10-27 17:19:24 - logger - INFO - Creating profile document for: https://www.linkedin.com/in/viktoria-shydei-344bb3317/
+2024-10-27 17:19:24 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): media.licdn.com:443
+2024-10-27 17:19:24 - urllib3.connectionpool - DEBUG - https://media.licdn.com:443 "GET /dms/image/v2/D4E03AQF_yfgfm4XtyA/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1729595224016?e=1735776000&v=beta&t=a3Wf521plND1L2kVhlQ80oEr32CrbHL69777Zt9ypBE HTTP/11" 200 18912
+2024-10-27 17:19:24 - werkzeug - INFO - 127.0.0.1 - - [27/Oct/2024 17:19:24] "POST /api/url HTTP/1.1" 200 -
+2024-10-27 17:20:22 - werkzeug - INFO - 127.0.0.1 - - [27/Oct/2024 17:20:22] "OPTIONS /api/url HTTP/1.1" 200 -
+2024-10-27 17:20:22 - logger - INFO - Receiving data for: https://www.linkedin.com/in/larysa-popova-077958161/
+2024-10-27 17:20:22 - linkedin_api.client - DEBUG - Attempting to use cached cookies
+2024-10-27 17:20:22 - linkedin_api.client - DEBUG - Using cached cookies
+2024-10-27 17:20:22 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.linkedin.com:443
+2024-10-27 17:20:23 - urllib3.connectionpool - DEBUG - https://www.linkedin.com:443 "GET / HTTP/11" 200 None
+2024-10-27 17:20:29 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.linkedin.com:443
+2024-10-27 17:20:29 - urllib3.connectionpool - DEBUG - https://www.linkedin.com:443 "GET /voyager/api/identity/profiles/larysa-popova-077958161/profileView HTTP/11" 200 2708
+2024-10-27 17:20:29 - logger - INFO - Creating profile document for: https://www.linkedin.com/in/larysa-popova-077958161/
+2024-10-27 17:20:29 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): media.licdn.com:443
+2024-10-27 17:20:29 - urllib3.connectionpool - DEBUG - https://media.licdn.com:443 "GET /dms/image/v2/C4D03AQHCBsSOj_SmoQ/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1587471424594?e=1735776000&v=beta&t=Yfbiwy7NbysI_1Cum5V19JWdyiZg235kzSjDI2zuBAQ HTTP/11" 200 12280
+2024-10-27 17:20:29 - werkzeug - INFO - 127.0.0.1 - - [27/Oct/2024 17:20:29] "POST /api/url HTTP/1.1" 200 -
+2024-10-27 19:53:51 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.21.110.41:5000
+2024-10-27 19:53:51 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-10-27 19:53:51 - werkzeug - INFO -  * Restarting with stat
+2024-10-27 19:53:53 - werkzeug - WARNING -  * Debugger is active!
+2024-10-27 19:53:53 - werkzeug - INFO -  * Debugger PIN: 224-662-039
+2024-10-27 19:54:07 - werkzeug - INFO -  * Detected change in '/mnt/d/sw/Liapi/app.py', reloading
+2024-10-27 19:54:08 - werkzeug - INFO -  * Restarting with stat
+2024-10-27 19:54:09 - werkzeug - WARNING -  * Debugger is active!
+2024-10-27 19:54:09 - werkzeug - INFO -  * Debugger PIN: 224-662-039
+2024-10-27 19:54:21 - werkzeug - INFO - 127.0.0.1 - - [27/Oct/2024 19:54:21] "OPTIONS /api/url HTTP/1.1" 200 -
+2024-10-27 19:54:21 - werkzeug - INFO - 127.0.0.1 - - [27/Oct/2024 19:54:21] "[31m[1mPOST /api/url HTTP/1.1[0m" 403 -
