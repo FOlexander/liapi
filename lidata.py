@@ -13,8 +13,13 @@ def get_profile_data(profile_id):
 
     profile_id = profile_id.split("/")[-2]
     profile_data = api.get_profile(profile_id)
+    profile_urn = profile_data['urn_id']
+    exp_data = api.get_profile_experiences(profile_urn)
+    
+    exp_string = json.dumps(exp_data)
     profile_string = json.dumps(profile_data)
-    return profile_string
+
+    return (profile_string, exp_string)
 
 if __name__ == '__main__':
-    get_profile_data('bikiviki')
+    get_profile_data('afurmanenko')

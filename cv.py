@@ -6,10 +6,11 @@ import requests
 from io import BytesIO
 import json
 
-def create_profile_document(data):
+def create_profile_document(data, exp):
     # Создание документа
     doc = Document()
     data = json.loads(data)
+    exp = json.loads(exp)
     # Функция для вставки фото в ячейку таблицы
     def insert_image_in_cell(cell, image_url, width=1.5):
         response = requests.get(image_url)
@@ -59,20 +60,11 @@ def create_profile_document(data):
 
     # Секция "Experience"
     doc.add_heading("Experience", level=1)
-    for experience in data['experience']:
+    for experience in exp:
         position = f"{experience['title']} at {experience['companyName']}"
-        # Извлекаем месяц и год для начала периода
-        start_month = experience['timePeriod']['startDate'].get('month', '')
-        start_year = experience['timePeriod']['startDate']['year']
-        start_date = f"{start_month}/{start_year}".strip('/')
-
-        # Извлекаем месяц и год для окончания периода
-        end_month = experience['timePeriod'].get('endDate', {}).get('month', 'Present')
-        end_year = experience['timePeriod'].get('endDate', {}).get('year', '')
-        end_date = f"{end_month}/{end_year}".strip('/')
 
         # Формируем период с учётом отсутствия месяца
-        period = f"{start_date} - {end_date}"
+        period = f"{experience['startDate']} - {experience['endDate']}"
         doc.add_paragraph(position, style='Heading 3')
         doc.add_paragraph(period)
         doc.add_paragraph(experience.get('description', ''))
