@@ -7,4 +7,5 @@ logs/
 *.txt
 *.log
 *.db
+*.json
 .env
