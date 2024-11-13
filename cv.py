@@ -41,7 +41,7 @@ def create_profile_document(data, exp):
 
     # Добавление текстовых данных в левую ячейку (headline, industryName, locationName)
     text_cell = table.cell(0, 0)
-    insert_text_in_cell(text_cell, data['headline'], bold=True, font_size=14)
+    insert_text_in_cell(text_cell, data['experience'][0]['title'], bold=True, font_size=14)
     insert_text_in_cell(text_cell, data['industryName'], font_size=12)
     insert_text_in_cell(text_cell, f"{data['locationName']}, {data['geoCountryName']}", font_size=12)
 

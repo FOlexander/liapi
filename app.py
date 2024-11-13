@@ -72,6 +72,7 @@ def handle_url():
         file_stream, filename = cv.create_profile_document(profile_data[0], profile_data[1])
     except Exception as e:
         logger.error('Error occurred while creating profile document: %s', url)
+        logger.error(e)
         return jsonify({"error": "Error creating profile document"}), 500
 
     # Сохраняем данные в базе данных
