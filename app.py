@@ -64,6 +64,7 @@ def handle_url():
         profile_data = lidata.get_profile_data(url)
     except Exception as e:
         logger.error('Error occurred while receiving data for: %s', url)
+        logger.error(e)
         return jsonify({"error": "Error retrieving profile data"}), 500
     
     try:
@@ -102,6 +103,7 @@ if __name__ == '__main__':
 
 
 #TODO
+#   
 #   3. add ips
 #   4. add linkedind accounts
 #   6. add docs
@@ -112,7 +114,7 @@ if __name__ == '__main__':
 #   9. check each fields in cv.py / Done
 #   7. add beauty html\css for popup / Done
 #   5. add response in case of error / Done
-
+#   1. PROBLEM WITH CHOOSING IMG / Done
 
 
 

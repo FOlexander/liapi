@@ -672,3 +672,95 @@ UnicodeEncodeError: 'latin-1' codec can't encode characters in position 43-49: o
 2024-11-13 21:46:59 - logger - ERROR - Error occurred while creating profile document: https://www.linkedin.com/in/uliana-borteichuk-41054a1a3/
 2024-11-13 21:46:59 - logger - ERROR - 'img_100_100'
 2024-11-13 21:46:59 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2024 21:46:59] "[35m[1mPOST /api/url HTTP/1.1[0m" 500 -
+2024-11-16 18:30:39 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.21.110.41:5000
+2024-11-16 18:30:39 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-11-16 18:30:39 - werkzeug - INFO -  * Restarting with stat
+2024-11-16 18:30:41 - werkzeug - WARNING -  * Debugger is active!
+2024-11-16 18:30:41 - werkzeug - INFO -  * Debugger PIN: 143-238-018
+2024-11-16 18:31:05 - werkzeug - INFO - 127.0.0.1 - - [16/Nov/2024 18:31:05] "OPTIONS /api/url HTTP/1.1" 200 -
+2024-11-16 18:31:05 - logger - INFO - Receiving data for: https://www.linkedin.com/in/mordy-levine-ba2b65/
+2024-11-16 18:31:05 - linkedin_api.client - DEBUG - Attempting to use cached cookies
+2024-11-16 18:31:05 - linkedin_api.client - DEBUG - Using cached cookies
+2024-11-16 18:31:05 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.linkedin.com:443
+2024-11-16 18:31:15 - logger - ERROR - Error occurred while receiving data for: https://www.linkedin.com/in/mordy-levine-ba2b65/
+2024-11-16 18:31:15 - werkzeug - INFO - 127.0.0.1 - - [16/Nov/2024 18:31:15] "[35m[1mPOST /api/url HTTP/1.1[0m" 500 -
+2024-11-16 18:31:53 - werkzeug - INFO - 127.0.0.1 - - [16/Nov/2024 18:31:53] "OPTIONS /api/url HTTP/1.1" 200 -
+2024-11-16 18:31:53 - logger - INFO - Receiving data for: https://www.linkedin.com/in/nasonshawn/
+2024-11-16 18:31:53 - linkedin_api.client - DEBUG - Attempting to use cached cookies
+2024-11-16 18:31:53 - linkedin_api.client - DEBUG - Using cached cookies
+2024-11-16 18:31:53 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.linkedin.com:443
+2024-11-16 18:32:03 - logger - ERROR - Error occurred while receiving data for: https://www.linkedin.com/in/nasonshawn/
+2024-11-16 18:32:03 - werkzeug - INFO - 127.0.0.1 - - [16/Nov/2024 18:32:03] "[35m[1mPOST /api/url HTTP/1.1[0m" 500 -
+2024-11-16 19:52:20 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.21.110.41:5000
+2024-11-16 19:52:20 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-11-16 19:52:21 - werkzeug - INFO -  * Restarting with stat
+2024-11-16 19:52:22 - werkzeug - WARNING -  * Debugger is active!
+2024-11-16 19:52:23 - werkzeug - INFO -  * Debugger PIN: 120-976-070
+2024-11-16 19:52:29 - werkzeug - INFO - 127.0.0.1 - - [16/Nov/2024 19:52:29] "OPTIONS /api/url HTTP/1.1" 200 -
+2024-11-16 19:52:29 - logger - INFO - Receiving data for: https://www.linkedin.com/in/nasonshawn/
+2024-11-16 19:52:29 - linkedin_api.client - DEBUG - Attempting to use cached cookies
+2024-11-16 19:52:29 - linkedin_api.client - DEBUG - Using cached cookies
+2024-11-16 19:52:29 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.linkedin.com:443
+2024-11-16 19:52:30 - urllib3.connectionpool - DEBUG - https://www.linkedin.com:443 "GET / HTTP/11" 200 None
+2024-11-16 19:52:35 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.linkedin.com:443
+2024-11-16 19:52:36 - urllib3.connectionpool - DEBUG - https://www.linkedin.com:443 "GET /voyager/api/identity/profiles/nasonshawn/profileView HTTP/11" 200 22059
+2024-11-16 19:52:39 - urllib3.connectionpool - DEBUG - https://www.linkedin.com:443 "GET /voyager/api/graphql?variables=(profileUrn:urn%3Ali%3Afsd_profile%3AACoAAADccPAB6b55U-SDUCrUss9rxGLoWdBEsIU,sectionType:experience)&queryId=voyagerIdentityDashProfileComponents.7af5d6f176f11583b382e37e5639e69e&includeWebMetadata=true HTTP/11" 200 35301
+2024-11-16 19:52:39 - logger - ERROR - Error occurred while receiving data for: https://www.linkedin.com/in/nasonshawn/
+2024-11-16 19:52:39 - werkzeug - INFO - 127.0.0.1 - - [16/Nov/2024 19:52:39] "[35m[1mPOST /api/url HTTP/1.1[0m" 500 -
+2024-11-16 20:09:53 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.21.110.41:5000
+2024-11-16 20:09:53 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-11-16 20:09:53 - werkzeug - INFO -  * Restarting with stat
+2024-11-16 20:09:55 - werkzeug - WARNING -  * Debugger is active!
+2024-11-16 20:09:55 - werkzeug - INFO -  * Debugger PIN: 120-976-070
+2024-11-16 20:10:05 - werkzeug - INFO - 127.0.0.1 - - [16/Nov/2024 20:10:05] "OPTIONS /api/url HTTP/1.1" 200 -
+2024-11-16 20:10:05 - logger - INFO - Receiving data for: https://www.linkedin.com/in/nasonshawn/
+2024-11-16 20:10:05 - linkedin_api.client - DEBUG - Attempting to use cached cookies
+2024-11-16 20:10:05 - linkedin_api.client - DEBUG - Using cached cookies
+2024-11-16 20:10:05 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.linkedin.com:443
+2024-11-16 20:10:06 - urllib3.connectionpool - DEBUG - https://www.linkedin.com:443 "GET / HTTP/11" 200 None
+2024-11-16 20:10:09 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.linkedin.com:443
+2024-11-16 20:10:10 - urllib3.connectionpool - DEBUG - https://www.linkedin.com:443 "GET /voyager/api/identity/profiles/nasonshawn/profileView HTTP/11" 200 22069
+2024-11-16 20:10:13 - urllib3.connectionpool - DEBUG - https://www.linkedin.com:443 "GET /voyager/api/graphql?variables=(profileUrn:urn%3Ali%3Afsd_profile%3AACoAAADccPAB6b55U-SDUCrUss9rxGLoWdBEsIU,sectionType:experience)&queryId=voyagerIdentityDashProfileComponents.7af5d6f176f11583b382e37e5639e69e&includeWebMetadata=true HTTP/11" 200 35299
+2024-11-16 20:10:13 - logger - ERROR - Error occurred while receiving data for: https://www.linkedin.com/in/nasonshawn/
+2024-11-16 20:10:13 - werkzeug - INFO - 127.0.0.1 - - [16/Nov/2024 20:10:13] "[35m[1mPOST /api/url HTTP/1.1[0m" 500 -
+2024-11-16 20:10:51 - werkzeug - INFO -  * Detected change in '/mnt/d/sw/Liapi/lidata.py', reloading
+2024-11-16 20:10:51 - werkzeug - INFO -  * Restarting with stat
+2024-11-16 20:10:53 - werkzeug - WARNING -  * Debugger is active!
+2024-11-16 20:10:53 - werkzeug - INFO -  * Debugger PIN: 120-976-070
+2024-11-16 20:10:59 - werkzeug - INFO - 127.0.0.1 - - [16/Nov/2024 20:10:59] "OPTIONS /api/url HTTP/1.1" 200 -
+2024-11-16 20:10:59 - logger - INFO - Receiving data for: https://www.linkedin.com/in/nasonshawn/
+2024-11-16 20:10:59 - linkedin_api.client - DEBUG - Attempting to use cached cookies
+2024-11-16 20:10:59 - linkedin_api.client - DEBUG - Using cached cookies
+2024-11-16 20:10:59 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.linkedin.com:443
+2024-11-16 20:11:00 - urllib3.connectionpool - DEBUG - https://www.linkedin.com:443 "GET / HTTP/11" 200 None
+2024-11-16 20:11:03 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.linkedin.com:443
+2024-11-16 20:11:04 - urllib3.connectionpool - DEBUG - https://www.linkedin.com:443 "GET /voyager/api/identity/profiles/nasonshawn/profileView HTTP/11" 200 22063
+2024-11-16 20:11:08 - urllib3.connectionpool - DEBUG - https://www.linkedin.com:443 "GET /voyager/api/graphql?variables=(profileUrn:urn%3Ali%3Afsd_profile%3AACoAAADccPAB6b55U-SDUCrUss9rxGLoWdBEsIU,sectionType:experience)&queryId=voyagerIdentityDashProfileComponents.7af5d6f176f11583b382e37e5639e69e&includeWebMetadata=true HTTP/11" 200 35299
+2024-11-16 20:11:08 - logger - ERROR - Error occurred while receiving data for: https://www.linkedin.com/in/nasonshawn/
+2024-11-16 20:11:08 - werkzeug - INFO - 127.0.0.1 - - [16/Nov/2024 20:11:08] "[35m[1mPOST /api/url HTTP/1.1[0m" 500 -
+2024-11-16 20:12:18 - werkzeug - INFO -  * Detected change in '/mnt/d/sw/Liapi/app.py', reloading
+2024-11-16 20:12:19 - werkzeug - INFO -  * Restarting with stat
+2024-11-16 20:12:20 - werkzeug - WARNING -  * Debugger is active!
+2024-11-16 20:12:20 - werkzeug - INFO -  * Debugger PIN: 120-976-070
+2024-11-16 20:12:30 - werkzeug - INFO - 127.0.0.1 - - [16/Nov/2024 20:12:30] "OPTIONS /api/url HTTP/1.1" 200 -
+2024-11-16 20:12:30 - logger - INFO - Receiving data for: https://www.linkedin.com/in/carinahellmich/
+2024-11-16 20:12:30 - linkedin_api.client - DEBUG - Attempting to use cached cookies
+2024-11-16 20:12:30 - linkedin_api.client - DEBUG - Using cached cookies
+2024-11-16 20:12:30 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.linkedin.com:443
+2024-11-16 20:12:31 - urllib3.connectionpool - DEBUG - https://www.linkedin.com:443 "GET / HTTP/11" 200 None
+2024-11-16 20:12:36 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.linkedin.com:443
+2024-11-16 20:12:37 - urllib3.connectionpool - DEBUG - https://www.linkedin.com:443 "GET /voyager/api/identity/profiles/carinahellmich/profileView HTTP/11" 200 7271
+2024-11-16 20:12:42 - urllib3.connectionpool - DEBUG - https://www.linkedin.com:443 "GET /voyager/api/graphql?variables=(profileUrn:urn%3Ali%3Afsd_profile%3AACoAADVM-LUBPyKj2glEOsbSeHd6BrzyCmRg5zw,sectionType:experience)&queryId=voyagerIdentityDashProfileComponents.7af5d6f176f11583b382e37e5639e69e&includeWebMetadata=true HTTP/11" 200 22499
+2024-11-16 20:12:42 - logger - INFO - Creating profile document for: https://www.linkedin.com/in/carinahellmich/
+2024-11-16 20:12:43 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): media.licdn.com:443
+2024-11-16 20:12:43 - urllib3.connectionpool - DEBUG - https://media.licdn.com:443 "GET /dms/image/v2/D4D03AQEr265U08csUQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1706203909893?e=1736985600&v=beta&t=7jkWvsN1ivNZ7HHrkVBFWgdoPYhyPncLtqa-42FSxPo HTTP/11" 200 45180
+2024-11-16 20:12:43 - werkzeug - INFO - 127.0.0.1 - - [16/Nov/2024 20:12:43] "POST /api/url HTTP/1.1" 200 -

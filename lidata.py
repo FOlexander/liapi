@@ -18,8 +18,9 @@ def get_profile_data(profile_id):
     
     exp_string = json.dumps(exp_data)
     profile_string = json.dumps(profile_data)
-
+    print(exp_string)
     return (profile_string, exp_string)
 
 if __name__ == '__main__':
-    get_profile_data('afurmanenko')
+    ps, es = get_profile_data('afurmanenko')
+    print(ps)

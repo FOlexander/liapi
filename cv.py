@@ -47,10 +47,12 @@ def create_profile_document(data, exp):
 
     # Добавление изображения в правую ячейку
     image_cell = table.cell(0, 1)
+    last_img_key = max((key for key in data if key.startswith('img_')), default=None)
+    print
     try:
-        insert_image_in_cell(image_cell, data['displayPictureUrl'] + data['img_200_200'], width=1.5)
-    except:
-        insert_image_in_cell(image_cell, data['displayPictureUrl'] + data['img_100_100'], width=1.5)
+        insert_image_in_cell(image_cell, data['displayPictureUrl'] + data[last_img_key], width=1.5)
+    except BaseException as e:
+        print(e)
 
     # Секция "Summary"
     summary = data.get('summary', '')
