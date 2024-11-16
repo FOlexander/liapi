@@ -1,11 +1,9 @@
 .lliapi/
 liapi/
-chrom_ext/
 __pycache__
 logs/
 *.docx
 *.pyc
-*.txt
 *.log
 *.db
 *.json
