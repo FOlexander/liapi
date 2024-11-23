@@ -43,7 +43,7 @@ def close_connection(exception):
     if db is not None:
         db.close()
 
-@app.route('/api/url', methods=['GET', 'POST', 'OPTIONS'])
+@app.route('/api/url', methods=['POST'])
 def handle_url():
     # Чтение JSON-данных
     data = request.get_json()

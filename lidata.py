@@ -17,6 +17,11 @@ def get_profile_data(profile_id):
 
     profile_id = profile_id.split("/")[-2]
     profile_data = api.get_profile(profile_id)
+
+    # Save the dictionary as a JSON file
+    # with open("profile_data.json", "w") as json_file:
+    #     json.dump(profile_data, json_file, indent=4)  
+
     profile_urn = profile_data['urn_id']
     exp_data = api.get_profile_experiences(profile_urn)
     

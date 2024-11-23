@@ -764,3 +764,59 @@ UnicodeEncodeError: 'latin-1' codec can't encode characters in position 43-49: o
 2024-11-16 20:12:43 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): media.licdn.com:443
 2024-11-16 20:12:43 - urllib3.connectionpool - DEBUG - https://media.licdn.com:443 "GET /dms/image/v2/D4D03AQEr265U08csUQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1706203909893?e=1736985600&v=beta&t=7jkWvsN1ivNZ7HHrkVBFWgdoPYhyPncLtqa-42FSxPo HTTP/11" 200 45180
 2024-11-16 20:12:43 - werkzeug - INFO - 127.0.0.1 - - [16/Nov/2024 20:12:43] "POST /api/url HTTP/1.1" 200 -
+2024-11-23 09:49:38 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.21.110.41:5000
+2024-11-23 09:49:38 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-11-23 09:49:38 - werkzeug - INFO -  * Restarting with stat
+2024-11-23 09:49:41 - werkzeug - WARNING -  * Debugger is active!
+2024-11-23 09:49:41 - werkzeug - INFO -  * Debugger PIN: 903-488-302
+2024-11-23 09:51:50 - werkzeug - INFO - 127.0.0.1 - - [23/Nov/2024 09:51:50] "[31m[1mOPTIONS /api/url HTTP/1.1[0m" 415 -
+2024-11-23 09:54:17 - werkzeug - INFO - 127.0.0.1 - - [23/Nov/2024 09:54:17] "[31m[1mOPTIONS /api/url HTTP/1.1[0m" 415 -
+2024-11-23 10:00:42 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.21.110.41:5000
+2024-11-23 10:00:42 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-11-23 10:00:42 - werkzeug - INFO -  * Restarting with stat
+2024-11-23 10:00:44 - werkzeug - WARNING -  * Debugger is active!
+2024-11-23 10:00:44 - werkzeug - INFO -  * Debugger PIN: 103-667-647
+2024-11-23 10:01:00 - werkzeug - INFO - 127.0.0.1 - - [23/Nov/2024 10:01:00] "[33mGET / HTTP/1.1[0m" 404 -
+2024-11-23 10:01:01 - werkzeug - INFO - 127.0.0.1 - - [23/Nov/2024 10:01:01] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-11-23 10:01:52 - werkzeug - INFO - 127.0.0.1 - - [23/Nov/2024 10:01:52] "[31m[1mOPTIONS /api/url HTTP/1.1[0m" 415 -
+2024-11-23 10:03:31 - werkzeug - INFO -  * Detected change in '/mnt/d/sw/Liapi/app.py', reloading
+2024-11-23 10:03:32 - werkzeug - INFO -  * Restarting with stat
+2024-11-23 10:03:34 - werkzeug - WARNING -  * Debugger is active!
+2024-11-23 10:03:34 - werkzeug - INFO -  * Debugger PIN: 103-667-647
+2024-11-23 10:03:46 - werkzeug - INFO - 127.0.0.1 - - [23/Nov/2024 10:03:46] "OPTIONS /api/url HTTP/1.1" 200 -
+2024-11-23 10:03:46 - logger - INFO - Receiving data for: https://www.linkedin.com/in/izzword/
+2024-11-23 10:03:49 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.linkedin.com:443
+2024-11-23 10:03:50 - urllib3.connectionpool - DEBUG - https://www.linkedin.com:443 "GET /voyager/api/identity/profiles/izzword/profileView HTTP/11" 200 6624
+2024-11-23 10:03:54 - urllib3.connectionpool - DEBUG - https://www.linkedin.com:443 "GET /voyager/api/graphql?variables=(profileUrn:urn%3Ali%3Afsd_profile%3AACoAACyAmSQBDSKSp_2bLHpuYtCpNXcJgfbwiq8,sectionType:experience)&queryId=voyagerIdentityDashProfileComponents.7af5d6f176f11583b382e37e5639e69e&includeWebMetadata=true HTTP/11" 200 32506
+2024-11-23 10:03:54 - logger - INFO - Creating profile document for: https://www.linkedin.com/in/izzword/
+2024-11-23 10:03:54 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): media.licdn.com:443
+2024-11-23 10:03:54 - urllib3.connectionpool - DEBUG - https://media.licdn.com:443 "GET /dms/image/v2/D4E03AQF01P6U1qoLQw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1730502877633?e=1737590400&v=beta&t=-nkLxZnpDQndxcDzfLndkclLvhdS0Qxn0INZyVe30lQ HTTP/11" 200 71638
+2024-11-23 10:03:54 - werkzeug - INFO - 127.0.0.1 - - [23/Nov/2024 10:03:54] "POST /api/url HTTP/1.1" 200 -
+2024-11-23 10:05:54 - werkzeug - INFO - 127.0.0.1 - - [23/Nov/2024 10:05:54] "OPTIONS /api/url HTTP/1.1" 200 -
+2024-11-23 10:05:54 - logger - INFO - Receiving data for: https://www.linkedin.com/in/chasebossai/
+2024-11-23 10:05:56 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.linkedin.com:443
+2024-11-23 10:05:57 - urllib3.connectionpool - DEBUG - https://www.linkedin.com:443 "GET /voyager/api/identity/profiles/chasebossai/profileView HTTP/11" 200 3780
+2024-11-23 10:05:59 - urllib3.connectionpool - DEBUG - https://www.linkedin.com:443 "GET /voyager/api/graphql?variables=(profileUrn:urn%3Ali%3Afsd_profile%3AACoAAAcMjgoBrBEmRByrNzm39ixIGZQp1opXUKQ,sectionType:experience)&queryId=voyagerIdentityDashProfileComponents.7af5d6f176f11583b382e37e5639e69e&includeWebMetadata=true HTTP/11" 200 24637
+2024-11-23 10:05:59 - logger - INFO - Creating profile document for: https://www.linkedin.com/in/chasebossai/
+2024-11-23 10:05:59 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): media.licdn.com:443
+2024-11-23 10:05:59 - urllib3.connectionpool - DEBUG - https://media.licdn.com:443 "GET /dms/image/v2/D5603AQFBM80IayK6Ug/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1723760576025?e=1737590400&v=beta&t=0d4vSLkHMV1XscpEljz0n8JTuis2cmYpWEw0IAgzb-Y HTTP/11" 200 41227
+2024-11-23 10:06:00 - werkzeug - INFO - 127.0.0.1 - - [23/Nov/2024 10:06:00] "POST /api/url HTTP/1.1" 200 -
+2024-11-23 10:08:27 - werkzeug - INFO -  * Detected change in '/mnt/d/sw/Liapi/lidata.py', reloading
+2024-11-23 10:08:28 - werkzeug - INFO -  * Restarting with stat
+2024-11-23 10:08:30 - werkzeug - WARNING -  * Debugger is active!
+2024-11-23 10:08:30 - werkzeug - INFO -  * Debugger PIN: 103-667-647
+2024-11-23 10:08:53 - werkzeug - INFO - 127.0.0.1 - - [23/Nov/2024 10:08:53] "OPTIONS /api/url HTTP/1.1" 200 -
+2024-11-23 10:08:53 - logger - INFO - Receiving data for: https://www.linkedin.com/in/gen-z/
+2024-11-23 10:08:55 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.linkedin.com:443
+2024-11-23 10:08:55 - urllib3.connectionpool - DEBUG - https://www.linkedin.com:443 "GET /voyager/api/identity/profiles/gen-z/profileView HTTP/11" 200 4252
+2024-11-23 10:08:58 - urllib3.connectionpool - DEBUG - https://www.linkedin.com:443 "GET /voyager/api/graphql?variables=(profileUrn:urn%3Ali%3Afsd_profile%3AACoAADCC9tEBXC5kH-KRjqXEWBaO6ECQd8Y7GiA,sectionType:experience)&queryId=voyagerIdentityDashProfileComponents.7af5d6f176f11583b382e37e5639e69e&includeWebMetadata=true HTTP/11" 200 22528
+2024-11-23 10:08:58 - logger - INFO - Creating profile document for: https://www.linkedin.com/in/gen-z/
+2024-11-23 10:08:58 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): media.licdn.com:443
+2024-11-23 10:08:58 - urllib3.connectionpool - DEBUG - https://media.licdn.com:443 "GET /dms/image/v2/D5603AQGrBILrOKGzrw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1700869216777?e=1737590400&v=beta&t=w0uIDKlOt4JpdBDnHCNIbs_9UMegRlVSqFoW2zD6dbs HTTP/11" 200 98122
+2024-11-23 10:08:58 - werkzeug - INFO - 127.0.0.1 - - [23/Nov/2024 10:08:58] "POST /api/url HTTP/1.1" 200 -
