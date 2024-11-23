@@ -7,7 +7,7 @@ import cv
 import lidata
 
 app = Flask(__name__)
-CORS(app, expose_headers=["Content-Disposition", "X-Custom-Header"])
+CORS(app)
 
 # Путь к базе данных
 DATABASE = 'requests.db'
@@ -43,7 +43,7 @@ def close_connection(exception):
     if db is not None:
         db.close()
 
-@app.route('/api/url', methods=['POST'])
+@app.route('/api/url', methods=['GET', 'POST', 'OPTIONS'])
 def handle_url():
     # Чтение JSON-данных
     data = request.get_json()

@@ -2,14 +2,18 @@ import os
 import json
 from dotenv import load_dotenv
 from linkedin_api import Linkedin
+import cookies
+
 
 load_dotenv()  
 mail = os.getenv("MAIL_F")
 password = os.getenv("PASSWORD_F")
 
 def get_profile_data(profile_id):
+
+    cook = cookies.make_cookie()
     # Authenticate using any Linkedin user account credentials
-    api = Linkedin(mail, password)
+    api = Linkedin(mail, password, cookies=cook)
 
     profile_id = profile_id.split("/")[-2]
     profile_data = api.get_profile(profile_id)
