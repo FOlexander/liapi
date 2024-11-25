@@ -1,10 +1,11 @@
 .lliapi/
 liapi/
 __pycache__
-logs/
 *.docx
 *.pyc
 *.log
 *.db
 *.json
 .env
+logs/
+**/logs/
