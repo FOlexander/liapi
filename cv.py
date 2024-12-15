@@ -62,14 +62,34 @@ def create_profile_document(data, exp):
 
     # Секция "Experience"
     doc.add_heading("Experience", level=1)
-    for experience in exp:
-        position = f"{experience['title']} at {experience['companyName']}"
 
-        # Формируем период с учётом отсутствия месяца
-        period = f"{experience['startDate']} - {experience['endDate']}"
-        doc.add_paragraph(position, style='Heading 3')
-        doc.add_paragraph(period)
-        doc.add_paragraph(experience.get('description', ''))
+    if len(exp) > len(data['experience']):
+        for experience in exp:
+            position = f"{experience['title']} at {experience['companyName']}"
+
+            # Формируем период с учётом отсутствия месяца
+            period = f"{experience['startDate']} - {experience['endDate']}"
+            doc.add_paragraph(position, style='Heading 3')
+            doc.add_paragraph(period)
+            doc.add_paragraph(experience.get('description', ''))
+    else:
+        for experience in data['experience']:
+            position = f"{experience['title']} at {experience['companyName']}"
+            # Извлекаем месяц и год для начала периода
+            start_month = experience['timePeriod']['startDate'].get('month', '')
+            start_year = experience['timePeriod']['startDate']['year']
+            start_date = f"{start_month}/{start_year}".strip('/')
+
+            # Извлекаем месяц и год для окончания периода
+            end_month = experience['timePeriod'].get('endDate', {}).get('month', 'Present')
+            end_year = experience['timePeriod'].get('endDate', {}).get('year', '')
+            end_date = f"{end_month}/{end_year}".strip('/')
+
+            # Формируем период с учётом отсутствия месяца
+            period = f"{start_date} - {end_date}"
+            doc.add_paragraph(position, style='Heading 3')
+            doc.add_paragraph(period)
+            doc.add_paragraph(experience.get('description', ''))
 
     # Секция "Education"
     if len(data['education']) > 0:
