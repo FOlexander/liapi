@@ -23,7 +23,13 @@ def get_profile_data(profile_id):
     #     json.dump(profile_data, json_file, indent=4)  
 
     profile_urn = profile_data['urn_id']
-    exp_data = api.get_profile_experiences(profile_urn)
+    try:
+        exp_data = api.get_profile_experiences(profile_urn)
+    except:
+        exp_data = []
+    # Save the dictionary as a JSON file
+    # with open("exp_data.json", "w") as json_file:
+    #     json.dump(exp_data, json_file, indent=4)
     
     exp_string = json.dumps(exp_data)
     profile_string = json.dumps(profile_data)
